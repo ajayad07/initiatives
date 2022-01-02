@@ -1,0 +1,294 @@
+  body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 1.666;
+    background-color: #00b4d1;
+    background-image: url("man.jpg");
+    color: #555;
+  }
+  #cu{
+    background-color: white;
+    height:83px;
+  }
+  #co{
+    background-color: white;
+    
+  }
+  h3{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+  }
+  nav {
+    background-color: white;
+  }
+  #heading{
+    text-align:center;
+  }
+  footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  #start-footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  
+  h1 {
+    font-weight: 900;
+    font-size: 200%;
+    margin-left: 500px;
+    color: #00b4d1;
+  }
+  #navbar{
+    color: #00b4d1;
+  }
+
+  .dictionary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 4rem auto;
+    max-width: 90%;
+  }
+  #bt
+  {
+    width:100%;
+    text-align: center;
+  }
+  #btn{
+    margin-right: 10px;
+  }
+  
+  .dictionary > .term {
+    text-align: center;
+    width: 600px;
+    height: 150px;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    border-radius: 7px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: all 100ms ease-in-out;
+  }
+  
+  .dictionary > .term > dt {
+    margin-bottom: 1rem;
+  }
+  
+  dt {
+    color: #00b4d1;
+    line-height: 1;
+  }
+  
+  dt span {
+    font-size: 200%;
+    font-weight: 900;
+  }
+  
+  .emoji {
+    margin: 0 auto 20px;
+    display: block;
+    font-size: 400%;
+  }
+  
+  dd {
+    font-size: 92.5%;
+    margin-left: 0;
+  }
+  
+  dd dt {
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+    font-size: inherit;
+  }
+  
+  dd dl {
+    font-size: 90%;
+    margin: 1rem auto 0 auto;
+    letter-spacing: 0.33px;
+    max-width: 15rem;
+  }
+  
+  dd dl .term {
+    margin-bottom: 1rem;
+  }
+
+  .main {
+    text-align: center;
+    justify-content: center;
+    display: flex; 
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .sub-main {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 35%;
+    border-radius: 20px; 
+    background-color: white;
+  }
+  .sub-main-signup{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 35%;
+    border-radius: 20px; 
+    background-color: white;
+  }
+  .imgs {
+      padding-top: 20px;
+      justify-content: center;
+      display: flex;
+    }
+  .container-image {
+    background-color: rgb(223, 221, 221); 
+    border-radius: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 115px;
+    width: 115px;
+  }
+  .profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 130px;
+  } 
+
+  input{
+      width: 300px;
+      height: 50px;
+      border-radius: 60px;
+      box-shadow: inset 0px 0px 25px 0px #888;
+      border: none;
+      outline: none;
+      background-color: #fff;
+  }
+
+  .email{
+      height: 25px;
+      width: 25px;
+      position: absolute;
+      padding: 14px 0 0 25px;
+  }
+
+  .name{
+      padding-left: 25px;
+      font-size: 20px;
+  }
+  .second-input{
+      padding-top: 20px;
+  }
+
+  .button{
+      width: 380px;
+      height: 50px;
+      border-radius: 60px;
+      background-color: #00b4d1;
+      color: white;
+      font-size: 25px;
+      border: none;
+  }
+  .login-button{
+      padding-top: 25px;
+  }
+
+  .link{
+      font-size: 25px;
+      font-weight: 400;
+  }
+   h2{
+     color:#00b4d1;
+     font-weight: bold;
+   }
+   #start{
+     background-color: white;
+     display: inline-block;
+     text-align: center;
+     border-radius: 7px;
+   }
+   .modalBackground {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .cmodalContainer {
+    width: 500px;
+    height: 300px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 500px;
+    margin-right: 200px;
+    align-content: center;
+  }
+  
+  .modalContainer {
+    width: 500px;
+    height: 300px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 200px;
+  }
+  
+  .modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 0px;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  
+  #addinit {
+    color: #00b4d1;
+  }
+  #modalcenter{
+    text-align: center;
+  }
+  #addbtn{
+    margin-top: 10px;
+  }
+  #googlelogin{
+    margin-top: 25px;
+    text-align: center;
+    
+  }
